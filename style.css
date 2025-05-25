@@ -1,0 +1,104 @@
+
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #b8b2b2;
+  color: #000000;
+  line-height: 1.8;
+    }
+
+header {
+  background-color: #ad76a6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+
+  padding: 6%;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  border-radius: 20px;
+}
+
+
+
+ul  {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+font-style: normal;
+color:#ccc ;
+list-style-type: none;
+}
+
+nav{
+  color:#000000
+}
+
+a{
+  color: black;
+text-decoration-style: solid ;
+font-style: italic;
+}
+
+
+    section {
+      max-width: 6000px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 5%;
+      border-radius: 20px;
+      border-left: 30px;
+      border-right: 30px;
+      border-top: 30px;
+      border-width: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+.video-responsivo{
+  width:100%;
+  aspect-ratio: 16 / 9 ;
+  border: none;
+}
+
+.menu-elegante {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: linear-gradient(to right, #ad76a6, #886784); /* degrade suave */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-elegante a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-elegante a:hover {
+  background-color: #ad76a6(0, 74%, 57%, 0.2);
+  text-shadow: 0 0 5px white;
+}
+
+footer{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+center a{
+  color:#b8b2b2;
+  font-size: small;
+}
